@@ -1,0 +1,125 @@
+{%load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JOBS REGISTER</title>
+	<link rel="stylesheet" type="text/css" href="{%static 'css/JOBS_REGISTER.css'%}">
+</head>
+<body>
+	<!-- 上面的div -->
+	<header id='top'>
+		<a href="#">
+			<img id='job_picture' src="{%static 'images/logoPC.png' %}">
+		</a>
+		<a  id='goto-fist-page' href="#">首页</a>
+
+	</header>
+	<!-- 中间的内容 -->
+	<nav id='center'>
+		<!-- 表格外面的div -->
+		<div id='container'>
+			<!-- 内部的标题div -->
+			<div class='head'>				
+				欢迎注册职友集
+			</div>
+			<!-- 右侧登陆快捷键 -->
+			<div class='login'>
+				<span>
+					已有职友集、微信、阿里账号？
+				</span>
+				<a id='login' href="#">快速登陆&gt</a>
+			</div>
+			<!-- form表单 -->
+			<form class='register_form'>
+				<!-- 昵称	 -->
+				<div class='form-item'>
+
+					<div class='form-item-control'>
+						<span>
+						<input class='input-item' type="text" name="" id="nick" placeholder="设置会员名">
+						</span>
+					</div>
+					
+				</div>
+				<!-- 密码 -->
+				<div class='form-item'>
+					<div class='form-item-control'>
+						<span>
+						<input class='input-item' type="password" name="" id="password" placeholder="设置你的登陆密码">
+						</span>
+					</div>
+					
+				</div>
+				<!-- 重复输入密码 -->
+				<div class='form-item'>
+					<div class='form-item-control'>
+						<span>
+						<input class='input-item' type="password" name="" id="password" placeholder="请再次输入你的密码">
+						</span>
+					</div>
+				</div>
+				<!-- 手机号码 -->
+				<div class='form-item'>
+					<div class='form-item-control'>
+						<span>
+							+86
+						</span>
+						
+						<span>
+							<input  class='input-item' type="" name="" placeholder="请输入您的手机号">	
+						</span>
+						
+					</div>
+								
+				</div>
+				<!-- 滑块 TODO-->
+			<!-- 	<div>
+					<div>
+						
+					</div>
+				</div> -->
+				<!-- 同意 -->
+				<div class='form-item'>
+					<div class='form-item-control'>
+						<button class='input-item' id='agree-buttom'>
+							同意条款并注册
+						</button>
+					</div>
+				</div>
+				<!-- 协议	 -->
+				<div >
+					<div class='form-item-control'>
+						<!-- 单选框 -->
+						<label>
+							<span>
+								<input type="checkbox" name="">
+								
+							</span>
+						</label>
+						<!-- 协议 -->
+						<span>
+							<span>
+								<a href="#">
+									《网站服务条款》
+								</a>
+								<span>|</span>
+								<a href="#">
+									《法律声明和隐私权政策》
+								</a>
+							</span>
+						</span>
+						<div>
+							
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</nav>
+	<!-- 底部 -->
+	<footer id='foot'>
+		
+	</footer>
+</body>
+</html>
